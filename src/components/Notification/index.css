@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.notification-container {
+  width: 40%;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .notification-container {
+    width: 90%;
+  }
+}
+.cancel {
+  font-size: 24px;
+}
